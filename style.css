@@ -186,15 +186,16 @@ button {
 }
 
 .personalInfo h1 {
-    transform: translateY(30px);
+    transform: translateY(70px);
     width: auto;
+    font-weight: 800;
 
 
 }
 
 .personalInfo h2 {
-    transform: translateY(20%);
-    width: auto;
+    transform: translateY(90px);
+    width: 800px;
 }
 
 #about {
