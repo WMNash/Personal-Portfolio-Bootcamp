@@ -394,7 +394,7 @@ footer div {
 
     footer {
         align-items: center;
-        height: 400px;
+        height: 600px;
         flex-direction: column;
         padding: 0px 40px;
         text-align: center;
@@ -405,9 +405,15 @@ footer div {
         margin: 20px 0px;
     }
 
+    #socialFooter h3 {
+        transform: translateY(100px);
+    }
+
     #socialFooter div {
         transform: translateX(-100px);
+        transform: translateY(100px);
         margin: 20px 0px;
+
     }
 
     .socmed {
