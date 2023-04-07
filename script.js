@@ -1,17 +1,16 @@
 // Assigning value to JS
 let btnDOM = document.querySelector('.inputField-btn')
+let inputFieldDOM = document.querySelector('.inputField')
 
-
-btnDOM.addEventListener('click', (event) => {
-    console.log(event);
-})
-
-
-
-document.addEventListener('keypress', (event) => {
-    let keyCode = event.key ? event.key : event.which;
-
-    if (keyCode === 13) {
-        btnDOM.click()
+btnDOM.addEventListener('keyup', (e) => {
+    e.preventDefault();
+    if (e.keyCode === 13) {
+        btnDOM.click();
     }
 })
+
+
+
+
+
+function handleMe()
