@@ -182,15 +182,19 @@ button {
     background-size: cover;
     filter: grayscale(90%);
     padding: 100px 0px;
+
 }
 
 .personalInfo h1 {
-    transform: translateY(0px);
+    transform: translateY(30px);
+    width: auto;
+
 
 }
 
 .personalInfo h2 {
     transform: translateY(20%);
+    width: auto;
 }
 
 #about {
